@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: beige;
+  width: 80%;
+  margin: 0 auto;
+  border-left: 1px solid rgba(100,100,100,.1);
+  border-right: 1px solid rgba(100,100,100,.1);
+}
+
+/* algemeen: vindt toepassing overal  */
+header{
+  height: 100px;
+  background-color: lightblue;
+  margin-bottom: 40px;
+  padding-top: 70px;
+}
+footer{
+  height: 120px;
+  background-color: lightgrey;
+  margin-top: 40px;
+  padding-top: 10px;
+}
+h1, h3, p, img{
+  margin-left: 20px;
+}
+
+/* css voor de menu list-items */
+ul{
+  list-style-type: none;
+}
+ul li{
+  display: inline-block;
+}
+ ul li a{
+   text-decoration: none;
+   font-size: 20px;
+   padding: 7px 15px;
+   background-color: navy;
+   color: whitesmoke;
+ }
+ ul li a:hover{
+   background-color: skyblue;
+ }
+
+ /* css voor homepage index.html   */
+
+
+/* css voor webpage mijncv.html   */
+form{
+  margin-left: 20px;
+}
+ul{
+  list-style-type: none;
+}
+legend{
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.div1, .div2{
+  width: 40%;
+  margin-left: 15px;
+  background-color: beige;
+  min-width: 440px;
+}
+td{
+  padding-left: 10px;
+}
+
+/* css voor webpage contact.html  */
+input[type="text"], input[type="email"], textarea, button{
+  display: block;
+  width: 400px;
+  height: 24px;
+  font-size: 14px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+.btn-large{
+  height: 36px;
+}
+#special{
+height: 200px;
+color: black;
+background-color: #FFFFCC;
+}
+input[type="radio"]{
+  margin-left: 6px;
+}
+button:active{
+background-color: green;
+color: whitesmoke;
+}
+.security{
+  margin-left: 0;
+  padding-bottom: 6px;
+}
